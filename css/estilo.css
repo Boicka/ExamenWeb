@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+/*-------------------------------*/
+    .header{
+        background-color: #3A7FFF;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background-color: #3A7FFF;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
+        }
+        .log{
+            flex: 0 1 auto;
+        }

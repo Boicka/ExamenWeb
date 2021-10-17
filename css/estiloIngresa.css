@@ -1,0 +1,171 @@
+*{
+    text-decoration:none;
+    /* color: black; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.padre{
+    margin-top: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+    .image img{
+        align-content: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .login{
+        background-color: rgb(220, 220, 220);
+    }
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+    
+
+    .facebook{
+        
+        display: inline-block;
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        color: white;
+
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left: 60px;
+        padding-right:  65px;
+
+        background-color:#3f71df;
+        border-color:#3f71df;
+        border-style: solid;
+        border-radius:50px;
+        text-align: center;
+
+        margin: 5px auto;
+    }
+
+    .google{
+        text-decoration:none;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left: 60px;
+        padding-right:  65px;
+
+        background-color:white ;
+        border-color: white ;
+        border-style: solid;
+        border-radius:50px;
+        text-align: center;
+
+        margin: 5px auto;
+    }
+
+    .apple{
+        display: inline-block;
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        color: white;
+
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left: 60px;
+        padding-right:  65px;
+
+        background-color:black ;
+        border-color: black ;
+        border-style: solid;
+        border-radius:50px;
+        text-align: center;
+
+        margin: 5px auto;
+    }
+
+    .inemail{
+        margin-left: 65px;
+        width: 80%;
+        height: 25px;
+    }
+    .inname{
+        margin-left: 65px;
+        width: 80%;
+        height: 25px;
+    }
+
+    .inpass{
+        margin-left: 65px;
+        width: 80%;
+        height: 25px;
+    }
+
+
+    .boton{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        
+    }
+
+    .ingresa{
+        display: inline-block;
+        align-self: center;
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        color: white;
+
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left:50px;
+        padding-right:50px;
+        
+        background-color:#1437c4 ;
+        border-color:#1437c4 ;
+        border-style: solid;
+        border-radius:50px;
+        text-align: center;
+    }
+
+    .recuperacion{
+        display: flex;
+        flex-flow: row;
+        flex: 1 1 50%;
+    }
+    .recuperar{
+        flex: 3 1 auto;
+    }
+
+    .registrate{
+        text-align: center;
+    }
+    .txtr{
+        text-align: right;
+    }
